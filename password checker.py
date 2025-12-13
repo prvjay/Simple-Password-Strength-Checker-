@@ -28,7 +28,7 @@ else:
     print("Add at least one number")
 
 #checking special characters
-special_characters = "!@#$%^&*(),.?\":{}|<>;'"
+special_characters = "!@#$%^&*(),.?\/:{}|<>;'"
 if any(c in special_characters for c in password):
     print("Contains special characters.")
 else:
